@@ -12,6 +12,7 @@ def get_requirements(file_path:str)->list[str]:
         
         if hyphen in requirements:
             requirements.remove(hyphen)
+            
     return requirements
 
 
